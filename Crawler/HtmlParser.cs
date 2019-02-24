@@ -38,12 +38,25 @@ namespace Crawler
         public void Load(string url = null)
         {
             _doc = _web.Load(url ?? _baseUrl);
+            var scripts = _doc.DocumentNode.SelectNodes("//script");
+            if(scripts != null)
+                foreach (var script in scripts)
+                {
+                    script.Remove();
+                }
+
+            var styles = _doc.DocumentNode.SelectNodes("//style");
+            if(styles != null)
+                foreach (var style in styles)
+                {
+                    style.Remove();
+                }
         }
 
         public IEnumerable<string> GetAnchors()
         {
             var anchors = _doc.DocumentNode.SelectNodes("//a");
-            if(anchors is null)
+            if (anchors is null)
                 yield break;
 
             foreach (var anchor in anchors)

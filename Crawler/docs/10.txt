@@ -1,0 +1,639 @@
+
+
+
+
+Академия Google — Википедия
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+			
+
+Академия Google			
+				Материал из Википедии — свободной энциклопедии				
+								Перейти к навигации
+				Перейти к поиску
+				Google Scholar
+
+URL
+
+scholar.google.com
+
+
+Тип сайта
+
+поиск по научным публикациям
+
+
+Регистрация
+
+необязательная
+
+
+Язык(-и)
+
+английский,&#32;немецкий&#32;и&#32;испанский
+
+
+Владелец
+
+Google
+
+
+Автор
+
+Google
+
+
+Начало работы
+
+ноябрь 2004 года
+
+
+Текущий статус
+
+работает и развивается
+&#160;Google Scholar на&#160;Викискладе
+
+
+
+Наукометрия
+
+
+
+
+
+Индексы:
+
+
+• Хирша
+
+
+• Кардашьян
+
+
+• РИНЦ
+
+
+• g-индекс
+
+
+• i-индекс
+
+
+Агрегаторы:
+
+
+- Scopus
+
+
+- Web of Science (WoS)
+
+
+- Google Scholar
+
+
+- eLIBRARY.ru
+
+
+- ИСТИНА МГУ
+
+
+- PubMed
+
+
+Термины:
+
+
+Индекс цитирования (ИЦ)
+
+
+Импакт-фактор (ИФ)
+
+
+Инфометрия
+
+
+Наукометрия
+
+Google Scholar — бесплатная поисковая система по полным текстам научных публикаций всех форматов и дисциплин. Проект работает с ноября 2004 года, первоначально в статусе бета-версии. Индекс Google Scholar включает данные из большинства рецензируемых онлайн журналов крупнейших научных издательств Европы и Америки. По функциям Google Scholar похож на сайты Scirus[en], CiteSeerX и GetCITED. Также Google Scholar похож на сайты, предоставляющие доступ к публикациям после оформления платной подписки, например, Scopus и Web of Science. Рекламный слоган Google Scholar&#160;— «стоя на плечах гигантов»&#160;— часть знаменитого высказывания И. Ньютона «Если я видел дальше других, то потому, что стоял на плечах гигантов», дань учёным, вносившим вклад в развитие науки на протяжении веков и обеспечившим основу для новых открытий и достижений.
+
+Содержание
+
+1 История
+2 Особенности и технические характеристики
+3 Алгоритм ранжирования
+4 Ограничения и критика
+5 Примечания
+6 Литература
+7 Ссылки
+
+
+
+История[править | править код]
+Начало проекта Google Scholar было положено обсуждением между Алексом Верстаком (Alex Verstak) и Анурагом Ачарья (Anurag Acharya), впоследствии работавших над созданием поискового индекса Google&#91;1&#93;&#91;2&#93;.
+В 2006 году компания Microsoft запустила проект «Windows Live Academic Search». После появления потенциального конкурента в Google Scholar добавили возможность импорта цитат в программы для управления библиографической информацией (такие как RefWorks (англ.), RefMan, EndNote и BibTeX). Аналогичные возможности также реализованы в других поисковых системах, например, в CiteSeer и Scirus (англ.).
+В 2007 году Ачарья (Anurag Acharya) объявил о начале программы по оцифровке и хостингу статей из журналов. Программа реализовалась по соглашению с издателями и независимо от проекта Google Books. Сканы старых журналов от проекта Google Books не включали метаданные, необходимые для поиска конкретных статей по конкретным областям знаний&#91;3&#93;.
+В 2011 году Google переработал верхнюю панель сайта google.com и удалил из неё ссылку на Google Scholar&#91;4&#93;. Это усложнило доступ к проекту.
+
+Особенности и технические характеристики[править | править код]
+Google Scholar выполняет поиск не только по статьям, доступным онлайн, но и по статьям, доступным только в библиотеках или за деньги&#91;5&#93;. «Научные» результаты поиска генерируются с использованием ссылок из «полнотекстовых журнальных статей, технических отчётов, препринтов, диссертаций, книг и других документов, в том числе выбранных веб-страниц, которые считаются „научными“»&#91;6&#93;. В результатах поиска Google Scholar выводит ссылки на статьи. Большинство из ссылок ведут на страницы, содержащие краткую информацию о статье; возможно, за доступ к полному тексту статей придётся заплатить&#91;6&#93;. «Расширенный поиск» позволяет искать в конкретных журналах или статьях&#91;7&#93;. Результаты поиска сортируются&#91;8&#93;:
+
+по рейтингу автора;
+количеству ссылок на статью;
+рейтингу статей, ссылающихся на найденную статью;
+рейтингу журналов, в которых опубликованы ссылающиеся статьи;
+рейтингу журнала, в котором опубликована найденная статья.
+Из блока «Цитируется в» можно узнать список статей, в которых цитируется рассматриваемая статья&#91;9&#93;. Эта функция, в частности, обеспечивает индекс цитирования, ранее доступный только в Scopus и Web of Knowledge. Данный индекс может быть использован при вебометрическом ранжировании сайтов&#91;10&#93;.
+В блоке «Статьи по теме» выводится список статей, похожих по содержанию с рассматриваемой статьёй. Статьи упорядочены по степени сходства с рассматриваемой статьёй и по своей значимости&#91;11&#93;.
+
+Алгоритм ранжирования[править | править код]
+Большинство академических баз данных и поисковых систем позволяют пользователям выбрать параметр, по которому нужно сортировать результаты поиска. Например, «актуальность», «количество цитат» или «дата публикации». Google Scholar для ранжирования результатов поиска использует комбинированный алгоритм. Алгоритм учитывает полный текст каждой статьи, рейтинг автора, рейтинг издания, в котором статья опубликована, количество цитат из публикации, опубликованных в другой научной литературе&#91;8&#93;. Исследования показали, что Google Scholar придаёт особенно большой вес количеству цитирований&#91;12&#93; и словам, содержащимся в заголовке документа&#91;13&#93;. Как следствие, первые ссылки в результатах поиска зачастую ведут на более цитируемые статьи.
+
+Ограничения и критика[править | править код]
+Данные в этой статье приведены по состоянию на 2008 год.Вы можете помочь, обновив информацию в статье.
+Некоторые пользователи считают Google Scholar сопоставимой по качеству и полезности с коммерческими базами данных&#91;14&#93;, хотя её пользовательский интерфейс (UI) все ещё находится в бета-версии.
+Проблемой Google Scholar является недостаток данных о его охвате. Некоторые издатели не позволяют Google Scholar индексировать свои журналы. Журналы издательства Elsevier не были включены в индекс до середины 2007 года. Затем издательство Elsevier открыло сайт ScienceDirect, и краткое содержание публикаций стало доступно в поиске Google&#91;15&#93;. По состоянию на февраль 2008 года в поисковом индексе по-прежнему отсутствуют журналы Американского химического общества, изданные за последние годы.
+Google Scholar не публикует список обхода научных журналов. Частота его обновления также неизвестна.
+Также можно отметить отсутствие удобных инструментов, имеющихся у многих подобных систем, что в свете требований ФАНО к предоставлению данных об организациях создаёт существенные проблемы подотчётным учреждениям, вынуждая их изобретать суррогатные решения, вносящие информационный шум в базы данных Google Scholar. Например, созданы фиктивные профили учёных для измерения числа публикаций и цитирований сотрудников институтов СПИИРАН&#91;16&#93; и ИПМИ КарНЦ РАН&#91;17&#93;.
+
+Примечания[править | править код]
+
+
+↑ Hughes, Tracey (декабрь 2006 года) «An interview with Anurag Acharya, Google Scholar lead engineer» Google Librarian Central
+
+↑ Assisi, Francis C. (3 January 2005) «Anurag Acharya Helped Google’s Scholarly Leap» INDOlink&#160;(неопр.)&#160;(недоступная ссылка).&#32;Проверено 9 апреля 2011.&#32;Архивировано 8&#160;июня 2011&#160;года.
+
+↑ Quint, Barbara.&#32;Changes at Google Scholar: A Conversation With Anurag Acharya&#160;(англ.)&#160;(27&#160;августа 2007).&#32;Проверено 10 августа 2018.
+
+↑ Madrigal, Alexis C..&#32;20 Services Google Thinks Are More Important Than Google Scholar&#160;(англ.), The Atlantic&#160;(3&#160;апреля 2012).&#32;Проверено 10 августа 2018.
+
+↑ Google Scholar Search Tips&#160;(англ.).&#32; scholar.google.com.&#32;Проверено 10 августа 2018.
+
+↑ 1 2 Vine, Rita (January 2006). “Google Scholar”. Journal of the Medical Library Association. 94 (1): 97—9. PMC&#160;1324783. Используется устаревший параметр &#124;month= (справка)
+
+↑ アーカイブされたコピー&#160;(неопр.).&#32;Проверено 9 апреля 2011.&#32;Архивировано 22&#160;октября 2009&#160;года.
+
+↑ 1 2 About Google Scholar&#160;(неопр.).&#32; Scholar.google.com.&#32;Проверено 29 июля 2010.&#32;Архивировано 29&#160;марта 2012&#160;года.
+
+↑ Google Scholar Search Tips&#160;(англ.).&#32; scholar.google.co.uk.&#32;Проверено 10 августа 2018.
+
+↑ Рейтинг официальных сайтов, 2007.
+
+↑ Exploring the scholarly neighborhood&#160;(англ.).&#32; Official Google Blog.&#32;Проверено 10 августа 2018.
+
+↑ Jöran Beel and Bela Gipp. Google Scholar’s Ranking Algorithm: An Introductory Overview. In Birger Larsen and Jacqueline Leta, editors, Proceedings of the 12th International Conference on Scientometrics and Informetrics (ISSI’09), volume 1, pages 230—241, Rio de Janeiro (Brazil), июль 2009 года. International Society for Scientometrics and Informetrics. ISSN 2175—1935.
+
+↑ Jöran Beel and Bela Gipp. Google Scholar’s Ranking Algorithm: The Impact of Citation Counts (An Empirical Study). In André Flory and Martine Collard, editors, Proceedings of the 3rd IEEE International Conference on Research Challenges in Information Science (RCIS’09), pages 439—446, Fez (Morocco), апрель 2009 года. IEEE. doi: 10.1109/RCIS.2009.5089308. ISBN 978-1-4244-2865-6.
+
+↑ An Examination of Citation Counts in a New Scholarly Communication Environment&#160;(неопр.).&#32; dlib.org.&#32;Проверено 10 августа 2018.
+
+↑ Peter Brantley.&#32;Science Direct-ly into Google&#160;(англ.).&#32;O'Reilly Radar&#32;(3&#160;July 2007).&#32;Проверено 10 августа 2018.&#32;Архивировано 21&#160;апреля 2008&#160;года.
+
+↑ "St. Petersburg Institute for informatics and automation" OR "Petersburg Institute for informatics"&#160;(неопр.).&#32;Google Scholar Citations.&#32;Проверено 10 августа 2018.
+
+↑ Institute of Applied Mathematical Research of the Karelian Research Centre of RAS&#160;(неопр.).&#32;Google Scholar Citations.&#32;Проверено 10 августа 2018.
+
+
+Литература[править | править код]
+А.&#160;А. Печников, О.Г. Илюкевич.&#32;Рейтинг официальных web-сайтов университетов России и Финляндии: сравнительный анализ.&#160;— 2007.
+Ссылки[править | править код]
+Васильева В. М. Методическое руководство по использованию поисковой системы Google Scholar («Google Scholar»)
+Официальный веб-сайт проекта
+Блог проекта «Google Scholar»
+Google Inc.
+Председатель совета директоров: Эрик Шмидт
+Директор, президент по технологиям и сооснователь: Сергей Брин
+Главный исполнительный директор и сооснователь: Ларри ПейджМатеринская компания: Alphabet
+Реклама
+AdMob
+Adscape[en]
+AdSense
+Advertising Professional[en]
+Ads
+Analytics
+DoubleClick
+Insights for Search[en]
+Trends
+Wallet
+Google Университет[en]
+Коммуникации
+Google+
+Calendar
+Friend Connect
+Gmail
+Inbox
+Groups
+Hangouts
+Joga Bonito
+Panoramio
+Picasa
+Вопросы и ответы[en]
+Talk
+Translate
+Voice
+ПО
+Chrome
+Chromium
+Earth
+Gadgets
+Goggles
+Gmail Mobile
+Now
+Picasa
+SketchUp
+Talk
+Google Assistant
+Toolbar
+Платформы
+Account
+Android
+App Engine
+Apps
+BigTable
+Chromecast
+Chrome OS
+Пользовательский поиск
+Native Client
+GFS
+Nexus
+OpenSocial
+Pixel
+Play
+Public DNS
+TV
+Fuchsia
+Инструментыразработки
+Android Studio
+Dart
+Gadgets API[en]
+GData[en]
+Go
+Googlebot
+Guice
+GWS
+Highly Open Participation Contest[en]
+KML
+MapReduce
+Mediabot[en]
+Pinyin[en]
+SketchUp Ruby[en]
+Sitemaps (index)
+Summer of Code
+AtGoogleTalks[en]
+Web Toolkit
+Website Optimizer[en]
+Публикация
+Alerts[en]
+Blogger
+Bookmarks[en]
+Документы
+FeedBurner
+Library Project[en]
+Map Maker
+Sites
+YouTube
+Диск
+Фото
+Keep
+Поиск (PageRank,руководства)
+Appliance
+Audio[en]
+Books
+Images
+Maps (Mars[en]
+Moon[en]
+Ocean[en]
+Sky
+Street View)
+News
+Patents[en]
+Покупки
+Scholar
+Usenet
+Video
+Web
+Тематические проекты
+Finance
+Google Glass
+Беспилотный автомобиль Google
+Проект Loon
+Проект Tango
+Google Cardboard
+Noto
+Code Jam
+Закрытые проекты
+Вопросы и ответы[en]
+Browser Sync
+Base
+Buzz
+Checkout
+Click-to-call[en]
+Code
+Desktop
+Dodgeball[en]
+Gears
+GOOG-411[en]
+Health
+iGoogle
+Image Labeler[en]
+Jaiku
+Knol
+Labs
+Lively[en]
+Mashup Editor[en]
+Notebook
+Orkut
+Pack
+Page Creator[en]
+Picnik[en]
+Reader
+SearchWiki[en]
+Updater
+Video Marketplace[en]
+Wave
+Web Accelerator
+См. также
+История
+Поглощения
+Список сервисов и инструментов
+Логотип
+Doodle
+Цензура[en]
+Ara
+Art Project
+Calico
+Current[en]
+Earth Outreach[en]
+Foundation (Google.org)
+Google China[en]
+Googleplex
+Google X
+Lunar X Prize
+I/O
+WiFi[en]
+Zeitgeist[en]
+«Бомбы»
+Гуглизация
+
+Поисковые системы и машиныОбщие
+Ask.com (Ask Jeeves, механизм Teoma)
+Blekko
+Cuil (закрыт)
+DuckDuckGo
+Exalead
+Gigablast
+Google
+Bing (Live Search/MSN Search)
+Qwant
+Yahoo! Search
+Inktomi
+AltaVista (закрыт)
+Alltheweb)
+Яндекс.Поиск
+Aliweb
+Lycos
+Региональные
+Accoona (Китай/США)
+Alleba (Филиппины)
+Ansearch (Австралия/США/Великобритания/Новая Зеландия)
+Апорт (Россия, закрыт)
+Daum (Юж. Корея)
+Guruji.com (Индия)
+Поиск@Mail.Ru (Россия)
+Maktoob (Бл. Восток)
+META (Украина)
+Miner.hu (Венгрия)
+Najdi.si (Словения)
+Onkosh (Бл. Восток)
+Рамблер-Поиск (Россия, закрыт)
+Rediff (Индия)
+SAPO (Португалия)
+Search.ch (Швейцария)
+Sesam (Норвегия/Швеция)
+Seznam.cz (Чехия)
+Спутник (Россия)
+Walla! (Израиль)
+лидеры
+Baidu (Китай)
+Naver (Юж. Корея)
+Yahoo! Japan (Япония)
+Яндекс.Поиск (Россия, СНГ, Турция)
+Тематические
+TinEye
+UniPage
+Lexxe
+Topsy
+FindBook.ru
+Метапоиск
+AskNet
+Brainboost
+Clusty
+Dogpile
+exactus.ru
+Ecosia
+Excite
+FarSEER
+HotBot
+Info.com
+Ixquick
+Krozilo
+Mamma
+Metacrawler
+MetaLib
+Нигма
+Myriad Search
+SideStep
+Surfwax
+Turbo10
+WebCrawler
+GlobalFileSearch
+Открытые / свободные
+DataparkSearch
+Egothor
+Gonzui
+Grub
+Ht://dig
+locust
+Isearch
+Lucene
+Lemur Toolkit &amp; Indri Search Engine
+mnoGoSearch
+Namazu
+Nutch
+OpenFTS
+Sciencenet (научная, на технологии YaCy)
+Wikia Search
+Sphinx
+SWISH-E
+Terrier Search Engine
+Xapian
+YaCy
+Zettair
+Детские
+AGAKIDS (Россия)
+Ask Kids (Великобритания)
+Frag Finn (Германия)
+Kids AOL (США)
+Kids Yahoo! (США)
+Quintura Дети (Россия)
+Семейный Яндекс (Россия)
+Гогуль (Россия)
+
+
+
+
+
+
+					
+						Источник — https://ru.wikipedia.org/w/index.php?title=Академия_Google&amp;oldid=97747608					
+				Категории: Сайты по алфавитуСайты, появившиеся в 2004 годуGoogleСервисы GoogleНаукометрияБиблиографические справочники и базы данныхБазы данных в ИнтернетеНаучные сайтыСкрытые категории: Википедия:Статьи с некорректным использованием шаблонов:Cite web (не указан язык)Ошибки CS1: устаревшие параметрыВикипедия:Статьи с переопределением значения из ВикиданныхПРО:ИТ:Статьи по алфавитуПРО:ИТ:Последняя правка: в текущем годуВикипедия:Статьи для обновления				
+							
+		
+		
+			Навигация
+			
+									
+						Персональные инструменты
+						
+							Вы не представились системеОбсуждениеВкладСоздать учётную записьВойти						
+					
+									
+										
+						Пространства имён
+						
+							СтатьяОбсуждение						
+					
+										
+												
+						
+							Варианты
+						
+						
+													
+					
+									
+				
+										
+						Просмотры
+						
+							ЧитатьПравитьПравить кодИстория						
+					
+										
+						
+						Ещё
+						
+													
+					
+										
+						
+							Поиск
+						
+						
+							
+															
+						
+					
+									
+			
+			
+				
+						
+			Навигация
+			
+								
+					Заглавная страницаРубрикацияУказатель А — ЯИзбранные статьиСлучайная статьяТекущие события				
+							
+		
+			
+			Участие
+			
+								
+					Сообщить об ошибкеСообществоФорумСвежие правкиНовые страницыСправкаПожертвовать				
+							
+		
+			
+			Инструменты
+			
+								
+					Ссылки сюдаСвязанные правкиСлужебные страницыПостоянная ссылкаСведения о страницеЭлемент ВикиданныхЦитировать страницу				
+							
+		
+			
+			Печать/экспорт
+			
+								
+					Создать книгуСкачать как PDFВерсия для печати				
+							
+		
+			
+			В других проектах
+			
+								
+					ВикискладВикиновости				
+							
+		
+			
+			На других языках
+			
+								
+					العربيةБългарскиCatalàکوردیČeštinaDanskDeutschEnglishEspañolEestiفارسیSuomiFrançaisעבריתहिन्दीMagyarBahasa IndonesiaItaliano日本語ქართული한국어LietuviųमराठीBahasa MelayuNederlandsNorskPolskiPortuguêsRomânăSicilianuSrpskohrvatski / српскохрватскиSlovenčinaShqipSvenskaTürkçeУкраїнськаOʻzbekcha/ўзбекчаTiếng Việt中文				
+				Править ссылки			
+		
+				
+		
+				
+						
+								 Эта страница в последний раз была отредактирована 27 января 2019 в 16:33.
+								Текст доступен по лицензии Creative Commons Attribution-ShareAlike; в отдельных случаях могут действовать дополнительные условия.
+Подробнее см. Условия использования.
+Wikipedia® — зарегистрированный товарный знак некоммерческой организации Wikimedia Foundation, Inc.
+							
+						
+								Политика конфиденциальности
+								Описание Википедии
+								Отказ от ответственности
+								Свяжитесь с нами
+								Разработчики
+								Соглашение о cookie
+								Мобильная версия
+							
+										
+										
+											
+										
+											
+									
+						
+		
+		
+
+
+
+	
+

@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Web;
 
 namespace Crawler
 {
     class Program
     {
-        private const string BaseUrl = "https://tutorialzine.com";
+        private const string BaseUrl = "https://ru.wikipedia.org";
+        private const string StartingUrl = "https://ru.wikipedia.org/wiki/Индекс_Хирша";
         private static string BaseFile;
         private static string DocumentDirectory;
 
@@ -16,7 +18,7 @@ namespace Crawler
 
         static string GetCurrentDirectory()
         {
-            return Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            return Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
         }
 
         static void Initialize()
@@ -37,13 +39,14 @@ namespace Crawler
 
             using (StreamWriter baseWriter = File.AppendText(BaseFile))
             {
-                Crawl(BaseUrl, baseWriter);
+                Crawl(StartingUrl, baseWriter);
 
                 while (_urls.Count != 0)
                 {
-                    if (_crawledUrls.Count > 100)
+                    if (_crawledUrls.Count > 14)
                         break;
                     string url = _urls.Dequeue();
+                    url = HttpUtility.UrlDecode(url);
                     Crawl(url, baseWriter);
                 }
             }
@@ -60,10 +63,11 @@ namespace Crawler
 
             foreach (var anchor in _parser.GetAnchors())
             {
-                if (!_crawledUrls.Contains(anchor) && !_urls.Contains(anchor))
+                string decoded = HttpUtility.UrlDecode(anchor);
+                if (!_crawledUrls.Contains(decoded) && !_urls.Contains(decoded))
                 {
-                    _urls.Enqueue(anchor);
-                    Console.WriteLine(anchor);
+                    _urls.Enqueue(decoded);
+                    Console.WriteLine(decoded);
                 }
             }
 
