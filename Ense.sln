@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crawler", "Crawler\Crawler.csproj", "{A6B749F5-66B9-4217-A35B-47B9C367C36D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Crawler", "Crawler\Crawler.csproj", "{A6B749F5-66B9-4217-A35B-47B9C367C36D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stemmer", "Stemmer\Stemmer.csproj", "{890D68C4-E08A-48C6-B03D-4A2A9D1A5B82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A6B749F5-66B9-4217-A35B-47B9C367C36D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6B749F5-66B9-4217-A35B-47B9C367C36D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6B749F5-66B9-4217-A35B-47B9C367C36D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{890D68C4-E08A-48C6-B03D-4A2A9D1A5B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890D68C4-E08A-48C6-B03D-4A2A9D1A5B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890D68C4-E08A-48C6-B03D-4A2A9D1A5B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890D68C4-E08A-48C6-B03D-4A2A9D1A5B82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

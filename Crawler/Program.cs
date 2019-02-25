@@ -23,9 +23,9 @@ namespace Crawler
 
         static void Initialize()
         {
-            DocumentDirectory = GetCurrentDirectory() + "/docs";
+            DocumentDirectory = Path.Combine(GetCurrentDirectory(), "docs");
             Directory.CreateDirectory(DocumentDirectory);
-            BaseFile = DocumentDirectory + "/index.txt";
+            BaseFile = Path.Combine(DocumentDirectory, "index.txt");
 
             if (!File.Exists(BaseFile))
                 File.Create(BaseFile).Close();
@@ -43,7 +43,7 @@ namespace Crawler
 
                 while (_urls.Count != 0)
                 {
-                    if (_crawledUrls.Count > 14)
+                    if (_crawledUrls.Count > 99)
                         break;
                     string url = _urls.Dequeue();
                     url = HttpUtility.UrlDecode(url);
