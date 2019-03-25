@@ -6,26 +6,6 @@ using System.Text;
 
 namespace InvertedIndexer
 {
-    public static class Extensions
-    {
-        public static IEnumerable<string> And(this Dictionary<string, List<string>> index, string firstTerm, string secondTerm)
-        {
-            return (from d in index
-                    where d.Key.Equals(firstTerm)
-                    select d.Value).SelectMany(x => x).Intersect
-                            ((from d in index
-                              where d.Key.Equals(secondTerm)
-                              select d.Value).SelectMany(x => x));
-        }
-
-        public static IEnumerable<string> Or(this Dictionary<string, List<string>> index, string firstTerm, string secondTerm)
-        {
-            return (from d in index
-                    where d.Key.Equals(firstTerm) || d.Key.Equals(secondTerm)
-                    select d.Value).SelectMany(x => x).Distinct();
-        }
-
-    }
 
     class Program
     {
@@ -101,15 +81,5 @@ namespace InvertedIndexer
             }
         }
 
-        public static IEnumerable<string> GetNames()
-        {
-            string dir = Path.Combine(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.Parent.FullName, "Stemmer", "stemmed");
-
-            foreach (var file in Directory.GetFiles(dir))
-            {
-                if(!file.Contains("index"))
-                    yield return file;
-            }
-        }
     }
 }
